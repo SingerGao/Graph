@@ -1,1 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T01:21:28.570Z" agent="5.0 (X11)" version="14.7.7" etag="m0gu1SrWniU2mMV4IHXC" type="github"><diagram id="87DgQmeLkYf72r9Cadet">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-20T05:35:05.482Z" agent="5.0 (X11)" etag="1cP8EmUNJivalTcxEYzV" version="14.7.7" type="github">
+  <diagram id="87DgQmeLkYf72r9Cadet" name="Page-1">
+    <mxGraphModel dx="1422" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-5" value="&lt;b&gt;模型训练&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="55" width="110" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-14">
+          <mxGeometry width="110" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-8" value="图像分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-14">
+          <mxGeometry x="20" y="35" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-9" value="目标检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-14">
+          <mxGeometry x="20" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-10" value="实例分割" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-14">
+          <mxGeometry x="20" y="110" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-11" value="图像分割" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-14">
+          <mxGeometry x="20" y="150" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-13" value="&lt;b&gt;任务选择&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-14">
+          <mxGeometry x="20" y="5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnVvepMEtpfqhiZe-Oa3-12" target="wnVvepMEtpfqhiZe-Oa3-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="160" as="sourcePoint" />
+            <mxPoint x="220" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wnVvepMEtpfqhiZe-Oa3-17" target="wnVvepMEtpfqhiZe-Oa3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-17" value="模型搭建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wnVvepMEtpfqhiZe-Oa3-18" target="wnVvepMEtpfqhiZe-Oa3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-18" value="策略/损失函数选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-20" value="算法/优化器参数设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-24" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wnVvepMEtpfqhiZe-Oa3-16" target="wnVvepMEtpfqhiZe-Oa3-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="60" as="sourcePoint" />
+            <mxPoint x="800" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-29" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wnVvepMEtpfqhiZe-Oa3-23" target="wnVvepMEtpfqhiZe-Oa3-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="90" as="sourcePoint" />
+            <mxPoint x="920" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="676" y="100" width="163" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-30">
+          <mxGeometry width="163" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-7" value="自动剪枝" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-30">
+          <mxGeometry x="9.588235294117647" y="5" width="67.11764705882354" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-27" value="参数设置(整体压缩率)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-30">
+          <mxGeometry x="19.18" y="40" width="120.82" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="900" y="117.5" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-31">
+          <mxGeometry width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-26" value="微调" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="wnVvepMEtpfqhiZe-Oa3-31">
+          <mxGeometry x="27.889999999999986" y="22.5" width="34.21" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnVvepMEtpfqhiZe-Oa3-33" target="wnVvepMEtpfqhiZe-Oa3-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-33" value="样本" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-15" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wnVvepMEtpfqhiZe-Oa3-34" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wnVvepMEtpfqhiZe-Oa3-33" target="wnVvepMEtpfqhiZe-Oa3-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="20" as="sourcePoint" />
+            <mxPoint x="620" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
